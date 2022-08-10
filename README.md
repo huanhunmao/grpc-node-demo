@@ -1,1 +1,1 @@
-# grpc-node-demo
+# 这是一个最简单的 grpc 服务的例子，是一个好的开始，可以 g clone url 后 自己 运行起来玩
