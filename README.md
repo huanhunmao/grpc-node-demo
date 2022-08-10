@@ -1,5 +1,16 @@
 
-# 我们最关心的应该是如何跑起来
+
+# How to run ?
+    ```
+    npm install grpc @grpc/proto-loader
+    server node server.js
+    client node client.js
+    ```
+
+# Document https://github.com/huanhunmao/grpc-node-demo
+
+
+# 如何跑起来(How to run?)
 
 0、git clone git@github.com:huanhunmao/grpc-node-demo.git
 
@@ -18,11 +29,3 @@ ps: 注意端口 不要被别的服务占用，还有一点是每次修改 serve
 这是一个最简单的 grpc 服务的例子，是一个好的开始，可以 g clone xxx 后 自己 运行起来玩
 
 
-# How to run ?
-    ```
-    npm install grpc @grpc/proto-loader
-    server node server.js
-    client node client.js
-    ```
-
-# Document https://github.com/huanhunmao/grpc-node-demo

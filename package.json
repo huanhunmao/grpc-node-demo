@@ -1,18 +1,32 @@
 {
   "name": "grpc-node-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "client": "node client.js"
   },
-  "keywords": [],
-  "author": "Mark_Fu",
+  "keywords": [
+    "grpc",
+    "node",
+    "demo"
+  ],
+  "author": {
+    "name": "Mark_Fu",
+    "weChat": "getXiLan",
+    "url": "https://juejin.cn/user/1741228277763278"
+  },
   "license": "ISC",
   "dependencies": {
     "@grpc/proto-loader": "^0.7.0",
     "grpc": "^1.24.11"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huanhunmao/grpc-node-demo"
+  },
+  "homepage": "https://github.com/huanhunmao"
 }
