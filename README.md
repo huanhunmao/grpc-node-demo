@@ -1,4 +1,4 @@
-# 跑起来
+# 我们最关心的应该是如何跑起来
 
 0、git clone git@github.com:huanhunmao/grpc-node-demo.git
 
