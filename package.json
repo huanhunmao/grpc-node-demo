@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mark_Fu",
   "license": "ISC",
   "dependencies": {
     "@grpc/proto-loader": "^0.7.0",
