@@ -1,0 +1,26 @@
+
+syntax = "proto3";
+
+package helloworld;
+
+// 定义服务名 helloTest
+service helloTest {
+    // 定义服务 SSayHiMark 方法
+    // HelloRequest 请求格式
+    // HelloResponse 返回格式
+    rpc SayHiMark(HelloRequest) returns(HelloResponse) {}
+}
+
+// 定义调用服务需要传递的参数 和 返回的参数。
+message HelloRequest {
+    //这里的 1 代表第一个参数  2 代表第二个参数
+    string name = 1;
+    int32 age = 2;
+}
+
+// 定义返回参数的格式
+message HelloResponse {
+    //定义第一个参数
+    string message = 1;
+    // 这里我没有定义 age,那么response中也不会有
+}
